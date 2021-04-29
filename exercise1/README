@@ -1,0 +1,17 @@
+
+1. Clone our training project https://github.com/plrdev/TrainingApp
+2. Setup development environment https://reactnative.dev/docs/environment-setup
+3. Choose between React Native CLI (Recommended) or Expo (no native code changes)
+
+4. Remember setup steps for both Android and iOS (Mac users)
+5. Remember to install dependencies (npm install) and iOS install pods (npx pod-install) or (cd ios & pod install)
+6. Run the training app (npm run ios & npm run android) ✅
+
+# Bonus: Change the text displayed to something, for example “Gofore React Native training is awesome!” 🙌
+
+# Bonus: Get the app running also on your own device (not just simulator / emulator)
+Tip: https://reactnative.dev/docs/running-on-device
+
+# Bonus: Initialize and run your own project from scratch 
+Tip: (npx react-native init <ProjectName>) 
+Tip 2: Add "--template react-native-template-typescript" for a typescript project 
