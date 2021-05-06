@@ -10,7 +10,7 @@
     Country should have name, capital and population properties. Create one mock country object to test with.
     #bonus Create TypeScript interface for country and CountryItemProps
 2.1.1 Add inline styling
-2.1.2 Convert styling to StyleSheet.object
+2.1.2 Convert styling to StyleSheet.create
 2.1.3 #bonus Convert styling to use styled-components -library (leverage JS ecosystem) 
 
 2.2 Use useEffect hook and fetch to fetch all countries (https://restcountries.eu/rest/v2/all)
