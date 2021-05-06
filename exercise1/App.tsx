@@ -1,12 +1,78 @@
 import React from 'react';
-import {SafeAreaView, Text, View} from 'react-native';
+import {Image, SafeAreaView, ScrollView, Text, View} from 'react-native';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <View>
-        <Text>React Native Training</Text>
-      </View>
+      <ScrollView>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+        <Text>React Native Training! Juha</Text>
+      </ScrollView>
     </SafeAreaView>
   );
 };
