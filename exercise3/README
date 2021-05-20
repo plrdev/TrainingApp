@@ -1,0 +1,37 @@
+3.1 Install React Navigation (v5) - https://reactnavigation.org/docs/getting-started/
+- Install the dependencies
+- Add "import 'react-native-gesture-handler';" into your index.js
+- Wrap your app into NavigationContainer
+
+3.2 Add Native Stack Navigator - https://reactnavigation.org/docs/native-stack-navigator
+- Install the dependency
+- Add enableScreens()
+- Create your stack of screens:
+  - Master screen
+  - Details screen
+
+3.3 Make your CountryFinder screen the master screen
+- Make each list item (country) handle press (wrap the item in Pressable)
+- add onPress handler, which navigates to Details screen
+- pass country item as parameters
+
+3.4 Create Details screen
+- Create details screen showing more detailed info on the country
+- Read and display the info from the route object
+#Bonus: Add "Favorite" header button to save favorites
+- Have master screen show the favorites on top of the list no matter what the user is searching
+#Bonus: Save/Rehydrate the favorites using async-storage - https://github.com/react-native-async-storage/async-storage
+
+3.5 Add bottom tab navigation - https://reactnavigation.org/docs/bottom-tab-navigator
+- Add the dependency
+- Nest your existing stack navigation into Tab navigator
+- Add another tab as SettingsScreen
+- SettingsScreen: Add some info about the app, be creative and use different components!
+#Bonus If you did favorite bonus, add reset favorites button there which will remove all the favorites
+
+#Bonus Strongly type your route parameters and screens - https://reactnavigation.org/docs/typescript
+- Create a ParamList type and use it with createXNavigator<ParamList>
+- For screen:
+  - create a NavigationProp for that screen
+  - create a RouteProp for the screen
+  - use them with the hooks useNavigation<NavigationProp> and useRoute<RouteProp>
