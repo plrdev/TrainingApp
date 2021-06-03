@@ -1,0 +1,13 @@
+4. 1 Add third party library that uses native features
+
+- React-native-device-info, react-native-camera..
+- Use the library
+- #Bonus Check from the source code how the native module is added (both iOS and Android!)
+
+4.2 Create your own native module
+
+- Use your imagination – what could the native side do?
+- Minimum - Return a value from it to the JS side and display it
+Hint: https://reactnative.dev/docs/native-modules-intro documents well these parts
+- Remember to do both iOS (on mac) and Android!
+
